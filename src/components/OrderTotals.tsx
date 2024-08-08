@@ -44,7 +44,7 @@ export default function OrderTotals({
         disabled={totalAmount === 0}
         onClick={() => placeOrder()}
       >
-        Guardar Ordern
+        Guardar Orden
       </button>
     </>
   );

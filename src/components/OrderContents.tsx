@@ -16,7 +16,7 @@ export default function OrderContents({
 
       <div className="space-y-3 mt-10">
         {order.length === 0 ? (
-          <p>La ordern esta vacia</p>
+          <p>La orden esta vacia</p>
         ) : (
           order.map((item) => (
             <div
